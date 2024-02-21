@@ -35,7 +35,7 @@ public class Student {
     public static void main(String[] args) {
         Student[] students = new Student[3];
         
-        students[0] = new Student("robin", 1001);
+        students[0] = new Student("Alice", 1001);
         students[1] = new Student("Bob", 1002);
         students[2] = new Student("Charlie", 1003);
         
