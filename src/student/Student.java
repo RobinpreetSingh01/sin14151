@@ -15,6 +15,17 @@ public class Student {
     private String name;
     private int studentID;
     private String course;
+    private int part_no;
+
+    public int getPart_no() {
+        return part_no;
+    }
+
+    public void setPart_no(int part_no) {
+        this.part_no = part_no;
+    }
+    
+    
 
     public Student(String name, int studentID) {
         this.name = name;
