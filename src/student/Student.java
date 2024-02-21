@@ -15,6 +15,7 @@ public class Student {
     private String name;
     private int studentID;
     private String course;
+	private int age;
 
     public Student(String name, int studentID) {
         this.name = name;
@@ -56,6 +57,19 @@ public class Student {
             System.out.println();
         }
     }
+
+	public void getAge() {
+		// TODO - implement Student.getAge
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param age
+	 */
+	public void setAge(int age) {
+		this.age = age;
+	}
 }
 
 
