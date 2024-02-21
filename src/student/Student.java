@@ -9,10 +9,12 @@ package student;
  * @author robin
  */
 public class Student {
+
     
     
     private String name;
     private int studentID;
+    private String course;
 
     public Student(String name, int studentID) {
         this.name = name;
@@ -30,6 +32,15 @@ public class Student {
     public void sayName() {
         System.out.println("My name is " + name);
     }
+    
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+    
 
 
     public static void main(String[] args) {
